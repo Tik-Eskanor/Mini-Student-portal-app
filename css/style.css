@@ -1,0 +1,49 @@
+
+body
+{
+    background:whitesmoke;
+}
+@font-face {
+    font-family: roboto-medium;
+    src: url(../fonts/Roboto-Medium.ttf);
+}
+
+h1,h2,h3,h4,h5,h6
+{
+    font-family: roboto-medium !important;
+}
+.border-light
+{
+    border-color: rgba(128, 128, 128, 0.295)!important;
+}
+.tomato
+{
+    background: tomato;
+}
+.tomato-text
+{
+    color: tomato;
+}
+.navy
+{
+    background:rgba(0, 0, 128, 0.767);
+}
+.navy-dark
+{
+    background:rgba(0, 0, 128, 0.904);
+}
+.navy:hover,.navy-dark:hover
+{
+    background: rgb(3, 3, 173);
+}
+
+.fees
+{
+    column-gap: 1.5rem !important;
+    flex-wrap: wrap !important;
+}
+.school-fees,.other-fees,.courses
+{
+    flex-basis: 30% !important;
+    min-width: 250px;
+}
